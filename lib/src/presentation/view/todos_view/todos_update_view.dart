@@ -138,7 +138,7 @@ class _TodosUpdateViewState extends State<TodosUpdateView> {
                         if (state.usersListStatus is StatusLoading) {
                           return LoadingWidget(
                             length: 1,
-                            height: 10.h,
+                            height: 55.h,
                           );
                         } else if (state.usersListStatus is StatusSuccess) {
                           List<UsersModel> data = state.usersList;
